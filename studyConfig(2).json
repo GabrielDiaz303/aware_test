@@ -1,11 +1,11 @@
 {
   "_id": "ac167e7e-11e3-4d98-ae11-d8839f0c9981",
   "study_info": {
-    "study_title": "ada",
-    "study_description": "asda",
-    "researcher_first": "asd",
-    "researcher_last": "ads",
-    "researcher_contact": "adsasd"
+    "study_title": "Prueba 1",
+    "study_description": "Prueba de ware",
+    "researcher_first": "Gabriel",
+    "researcher_last": "Diaz",
+    "researcher_contact": "Gadiaz@udesa.edu.ar"
   },
   "database": {
     "database_host": "172.23.64.10",
@@ -19,28 +19,9 @@
     "require_ssl": true
   },
   "createdAt": "2026-11-18T17:03:16.664Z",
-  "updatedAt": "2026-11-18T17:08:58.266Z",
-  "questions": [
-    {
-      "esm_submit": "Submit",
-      "esm_title": "asdas",
-      "instructions": "asda",
-      "esm_type": 1,
-      "esm_notification_timeout": 600,
-      "id": 1
-    }
-  ],
-  "schedules": [
-    {
-      "title": "preguntas",
-      "type": "repeat",
-      "esm_keep": false,
-      "questions": [
-        1
-      ],
-      "repeatInterval": 2
-    }
-  ],
+  "updatedAt": "2026-11-19T14:44:13.963Z",
+  "questions": [],
+  "schedules": [],
   "sensors": [
     {
       "setting": "webservice_wifi_only",
@@ -88,7 +69,7 @@
     },
     {
       "setting": "status_applications",
-      "value": true
+      "value": false
     },
     {
       "setting": "status_notifications",
@@ -136,7 +117,7 @@
     },
     {
       "setting": "communication",
-      "value": true
+      "value": false
     },
     {
       "setting": "status_communication_events",
@@ -152,7 +133,7 @@
     },
     {
       "setting": "status_installations",
-      "value": true
+      "value": false
     },
     {
       "setting": "status_screen",
@@ -160,7 +141,7 @@
     },
     {
       "setting": "status_touch",
-      "value": false
+      "value": true
     },
     {
       "setting": "status_telephony",
